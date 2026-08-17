@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A student developer learning to build with code and curiosity." />
+    <title>Student Developer — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav aria-label="Main navigation">
+        <a class="brand" href="#top">my<span>_</span>portfolio</a>
+        <a class="nav-link" href="#now">right now <span>↘</span></a>
+      </nav>
+
+      <section class="hero" id="top">
+        <p class="eyebrow"><span class="status-dot"></span>student • developer in progress</p>
+        <h1>Learning to turn<br /><em>ideas</em> into things.</h1>
+        <p class="intro">I’m a student exploring code, building little experiments, and learning by making. One project, one prompt, one bug fix at a time.</p>
+        <div class="actions">
+          <a class="button primary" id="github-link" href="https://github.com/" target="_blank" rel="noreferrer">See my GitHub <span>↗</span></a>
+          <a class="button secondary" href="#now">What I’m learning <span>↓</span></a>
+        </div>
+        <div class="scribble" aria-hidden="true">keep making ↗</div>
+      </section>
+
+      <section class="about section-grid" aria-labelledby="about-title">
+        <p class="section-label">01 / ABOUT ME</p>
+        <div>
+          <h2 id="about-title">I’m figuring it out<br />by <em>building</em> it.</h2>
+          <p>As a student, I’m interested in the feeling of starting with a blank page and ending with something real. Coding gives me a way to follow that curiosity — from a tiny idea to a working project.</p>
+          <p>I don’t have everything mapped out yet. That’s the fun part.</p>
+        </div>
+      </section>
+
+      <section class="learning" id="now" aria-labelledby="learning-title">
+        <div class="learning-heading">
+          <p class="section-label">02 / RIGHT NOW</p>
+          <h2 id="learning-title">On my<br /><em>learning list.</em></h2>
+        </div>
+        <div class="cards">
+          <article class="card card-lime">
+            <span class="card-number">01</span>
+            <h3>Vibe coding</h3>
+            <p>Using curiosity, good prompts, and fast experiments to bring an idea to life.</p>
+            <span class="card-icon">✦</span>
+          </article>
+          <article class="card card-pink">
+            <span class="card-number">02</span>
+            <h3>Building for the web</h3>
+            <p>Learning how the pieces of a website fit together — design, structure, and interaction.</p>
+            <span class="card-icon">⌘</span>
+          </article>
+          <article class="card card-blue">
+            <span class="card-number">03</span>
+            <h3>Coding in public</h3>
+            <p>Saving my work, sharing progress, and keeping a record of what I’m learning on GitHub.</p>
+            <span class="card-icon">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="github-callout" aria-labelledby="github-title">
+        <p class="section-label">03 / FIND MY WORK</p>
+        <div>
+          <h2 id="github-title">The work is<br /><em>the proof.</em></h2>
+          <p>My GitHub is where the experiments live: works in progress, things I’ve learned, and the next version of whatever I’m building.</p>
+          <a class="text-link" id="github-link-secondary" href="https://github.com/" target="_blank" rel="noreferrer">Open the repository <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#top">my<span>_</span>portfolio</a>
+      <p>Made while learning.</p>
+      <a id="github-link-footer" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
